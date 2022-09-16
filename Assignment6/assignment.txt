@@ -1,0 +1,18 @@
+1. Given a grammar G with rules S->aSb|epsilon.
+   Design a BISON application that will accept strings in L(G).
+2. Given a grammar G with rules
+   E->-E|E+T|E-T|T
+   T->T*F|T/F|F
+   F->(E)|NUMBER
+   where NUMBER belongs to the set of integers.
+   Design a calculator using FLEX-BISON.
+3. A language has a set of twenty eight strings - ONE, TWO, THREE, FOUR, 
+   FIVE, SIX, SEVEN , EIGHT, NINE, TEN, ELEVEN, TWELVE, THIRTEEN, FORTEEN, 
+   FIFTEEN, SIXTEEN ,SEVENTEEN, EIGHTEEN, NINETEEN, TWENTY, THIRTY, FOURTY, 
+   FIFTY, SIXTY, SEVENTY, EIGHTY, NINETY, HUNDRED. 
+   Design a FLEX-BISON application that accepts correct
+   English language representation of 
+   any number within 1-999 and prints the equivalent decimal number 
+   For Example: ONE HUNDRED THIRTY FIVE ==> 135
+
+
